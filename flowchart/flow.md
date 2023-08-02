@@ -11,7 +11,7 @@ k64[[ \n\n\n MK64FN1LL12 Microcontroller \n\n\n\n ]]
 	k64 --PTD4_RTS-------> l3(Logic level converter \n3.3v <> 5v )
 	l4(Logic level converter \n3.3v <> 5v )--PTD5_CTS---> k64  
 	
-	ftdi( \n\n USB to TTL converter \n\n\n )
+	ftdi( \n\n USB to UART converter \n\n\n )
 	ftdi --> usb_con((USB CONNECTOR))
 
 	ftdi --TxD---->l1
